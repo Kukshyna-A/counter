@@ -1,0 +1,76 @@
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about__ave {
+  width: 100%;
+  margin: 100px 0 0;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+ h2 {
+  font-size:36px;
+  color:rgb(61, 53, 110);
+}
+ p {
+  font-size:16px;
+  color:rgb(61, 53, 110);
+}
+@media screen and (max-width: 600px) {
+  .about__ave-content {
+    max-width: 100%;
+  }
+  .about__ave-content-img {
+    max-width: 100%;
+  }
+}
+
+.wrapper__content-elements {
+  width: 100%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 100px 0 50px;
+}
+.animator__numbers {
+  display: flex;
+  justify-content: center;
+}
+.animator__numbers1 ul {
+  list-style: none;
+}
+.animator__numbers1 li {
+  display: none;
+}
+.animator__numbers2 ul {
+  list-style: none;
+}
+.animator__numbers2 li {
+  display: none;
+}
+.counter__element-content span {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 90px;
+  letter-spacing: 0.05em;
+  color:rgb(13, 156, 252);
+}
+.counter__text span {
+  font-size: 24px;
+  line-height: 2em;
+  font-weight: 300;
+  color:rgb(119, 121, 129);
+}
+.counter__element {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .counter__element {
+    max-width: 100%;
+  }
+}
